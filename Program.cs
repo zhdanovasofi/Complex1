@@ -3,7 +3,22 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+/*
+Как класс с закрытыми полями, где операции реализуются как методы класса;
+Комплексное число представляется парой действительных чисел (a, b), где а – действительная часть, b – мнимая часть. Реализовать класс Complex для работы с комплексными числами. Обязательно должны присутствовать операции:
 
+- сложения add, (a, b) + (c, d) = (a + с, b + d);
+
+- вычитания sub, (a, b) – (c, d) = (a – c, b - d);
+
+- умножения mul, (a, b) * (c, d) = (ac – bd, ad + bc);
+
+- деления div, (a, b) / (c, d) = (ac + bd, bc - ad) / (c2 + d2);
+
+- сравнение equ, (a, b) = (c, d), если (a = c) и (b = d);
+
+- сопряженное число conj, conj(a, b) = (a, -b)
+*/
 namespace Complex
 {
     class Program
